@@ -3,7 +3,6 @@ WareHouse Management System worked with Sheldon Huang, Brain Hu and David Ouyang
 
 How to use it:
 
-
   - Our Main Class is named “Company.java”, which is in model package. You should be able to run it directly.
 
 
