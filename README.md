@@ -18,21 +18,21 @@ Our program can be divided into some part.
 
   - 1. The first part read translation.csv, traversal_table.csv and initial.csv and generate warehouse and reserve room from file it read. 
 
-  The warehouse generation mainly includes 3 step. 
+    The warehouse generation mainly includes 3 step. 
 
-  The warehouse is actually an ArrayList of “Location”. 
-  The “Location” class include “Fascia” attribute, “amount” attribute and “zone”, “aisle”, “rack” and “level” attributes. 
-  The “Fascia” class include “isDamage”, “model”, “colour” and “sku” attributes.
+    The warehouse is actually an ArrayList of “Location”. 
+    The “Location” class include “Fascia” attribute, “amount” attribute and “zone”, “aisle”, “rack” and “level” attributes. 
+    The “Fascia” class include “isDamage”, “model”, “colour” and “sku” attributes.
 
-  In the first step, we read the translation.csv build an ArrayList of Fascia according to colour, model and sku (in order).
+    In the first step, we read the translation.csv build an ArrayList of Fascia according to colour, model and sku (in order).
 
-  In the second step, we read the traversal_table.csv, build up an arrayList of “Location” in order according to location information       (“zone”, “aisle”, “rack” and “level”), find Fascia through sku and put the Fascia into the corresponding Location Object. Note that, we   set the initial amount of each location’s amount to be 30.
+    In the second step, we read the traversal_table.csv, build up an arrayList of “Location” in order according to location information       (“zone”, “aisle”, “rack” and “level”), find Fascia through sku and put the Fascia into the corresponding Location Object. Note that,       we set the initial amount of each location’s amount to be 30.
 
-  In the third step, we read the initial.csv, use location information to locate Fascia and update the amount of that location.
+    In the third step, we read the initial.csv, use location information to locate Fascia and update the amount of that location.
 
-  Until now, we have connected all the information of Location, Fascia, colour, model, sku and amount. We can easily find Fascia, location   or sku if we have one of them, because they are pairwise injection according to our construction.
+    Until now, we have connected all the information of Location, Fascia, colour, model, sku and amount. We can easily find Fascia,           location or sku if we have one of them, because they are pairwise injection according to our construction.
 
-  Reserve room is another ArrayList of “Location”, corresponding to the location and Fascia in wareHouse, we build reserve room in           WareHouse class too, however, it’s default amount is 40, and always auto-refill.
+    Reserve room is another ArrayList of “Location”, corresponding to the location and Fascia in wareHouse, we build reserve room in           WareHouse class too, however, it’s default amount is 40, and always auto-refill.
 
   - 2. When an order came in through fax, we make each order to be an Order object, this object includes sku, colour and model information     and we put Orders into order processor to store them. 
 
