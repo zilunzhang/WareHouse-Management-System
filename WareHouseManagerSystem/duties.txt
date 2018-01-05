@@ -1,0 +1,40 @@
+Phase 2 duties: 
+- Sicong(Sheldon) Huang 
+-Refactorizing the code, implementing observer design pattern for Location and Replenisher.
+-Refactored FasciaManager, RepleniherManager,WareHouse, EventReader for observer pattern
+-Implementing FasciaManaderTest, FasciaTest, LocationTest, ReplenisherManagerTest, ReplenisherTest and ReadEventTest(Mean method/object) using dependency injection.
+-Teaching dependency injection design pattern to team members
+-implementing denpendency injection to all the tests mentioned above, expecially for ReadEventTest, mocked multiple objects to test small methods
+- Contribute to Debug and Javadoc when implementing.
+-Formatting.
+
+Kaixuan Hu
+Responsible for
+- Designing and writing test for big parts of this program.
+Test including the test for files in packages, loading, manager, ordering, picking, processor, sequencing, util, excluding test for worker.
+- Contributing to debugging, espescially dealing with NullPointerException and fix a if-else block structure problem in main method.
+- Formating and fix code style errors for every files.
+
+Dong Hao Ou Yang
+Responsible for 
+- Writing the sequencer test.
+- Fixing all the bug happening to the sequencer, loader in the read file function.
+- Writing the java doc for all the worker class.
+- Fixing the bug when writing finals.csv.
+- Designing a new sequencing method because the instruction has changed.
+- Designing the barcode reader method in both sequencer and loader class to fulfill the new instruction.
+
+Zilun Zhang
+- Designed Managers such as FasciaManager and WareHouseManager
+- contributed to all processor tests and WareHouseManager test
+- fully design and implemented log stuff.
+- Refactoring EventReader.java, move out some methods.
+- Added rescan events for sequencer and loader.
+- changed sku to string
+- redesign the picker class. The picker first check the order of picking from barcode reader by comparing with optimization software. Then start to pick one by one (pick one and scan one). 
+- fixed all bugs remain from phase 1
+- design the testorders.txt
+- Contribute to Debug and Javadoc when implementing
+- Formatting.
+- help teammates solve their bugs.
+- Took part in every group meeting, most of them are organized by me.
