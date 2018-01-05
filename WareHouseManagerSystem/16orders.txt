@@ -1,0 +1,63 @@
+Order SES Blue
+Order SES Red
+Order SE Black
+Order SE Black
+Replenisher Sheldon ready
+Picker Alice ready
+Order S Beige
+Order SES Green
+Order SE Red
+Picker Alice pick 37
+Order SES Green
+Picker Alice pick 38
+Picker Alice pick 21
+Picker Alice pick 22
+Picker Alice pick 43
+Picker Alice pick 44
+Picker Alice pick 43
+Picker Alice pick 44
+Order SEL Black
+Order S Green
+Order SES Black
+Order S White
+Picker Bob ready
+Picker Alice to Marshaling
+Picker Alice ready
+Picker Bob pick 9
+Order S Black
+Picker Bob pick 10
+Picker Bob pick 29
+Picker Bob pick 30
+Picker Bob pick 19
+Picker Bob pick 20
+Picker Bob pick 29
+Picker Bob pick 30
+Picker Bob to Marshaling
+Sequencer Sue ready
+Sequencer Sue sequence 37
+Sequencer Sue sequence 38
+Sequencer Sue sequence 21
+Sequencer Sue sequence 22
+Sequencer Sue sequence 43
+Sequencer Sue sequence 44
+Sequencer Sue sequence 43
+Sequencer Sue sequence 44
+Sequencer Sue rescan
+Sequencer Sue finish and ready for loader pick up
+Loader Alan ready
+Loader Alan rescan
+Loader Alan loads
+Sequencer Bill ready
+Sequencer Bill sequence 10
+Sequencer Bill sequence 9
+Sequencer Bill sequence 29
+Sequencer Bill sequence 30
+Sequencer Bill sequence 19
+Sequencer Bill sequence 20
+Sequencer Bill sequence 29
+Sequencer Bill sequence 30
+Sequencer Bill rescan
+Sequencer Bill finish and ready for loader pick up
+Loader Alan ready
+Loader Alan rescan
+Loader Alan loads

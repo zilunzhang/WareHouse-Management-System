@@ -1,0 +1,254 @@
+Jan 05, 2018 7:26:32 AM model.EventReader dealWithOrder
+INFO: INPUT: Added a new order: SES Blue
+Jan 05, 2018 7:26:32 AM model.EventReader dealWithOrder
+INFO: INPUT: Added a new order: SES Red
+Jan 05, 2018 7:26:32 AM model.EventReader dealWithOrder
+INFO: INPUT: Added a new order: SE Black
+Jan 05, 2018 7:26:32 AM model.EventReader dealWithOrder
+INFO: INPUT: Added a new order: SE Black
+Jan 05, 2018 7:26:32 AM model.EventReader dealWithOrder
+INFO: NOTE: There is a picking request added to picking request processor. Skus are: [37, 38, 21, 22, 43, 44, 43, 44]
+Jan 05, 2018 7:26:32 AM model.EventReader readEvent
+INFO: INPUT: Sheldon is ready.
+Jan 05, 2018 7:26:32 AM model.EventReader pickerIsReady
+INFO: INPUT: Alice is Ready.
+Jan 05, 2018 7:26:32 AM model.EventReader pickerIsReady
+INFO: NOTE: There is a picking request added to Alice from picking request processor. Now, there are 0 picking requests in the processor.
+Jan 05, 2018 7:26:32 AM model.EventReader dealWithOrder
+INFO: INPUT: Added a new order: S Beige
+Jan 05, 2018 7:26:32 AM model.EventReader dealWithOrder
+INFO: INPUT: Added a new order: SES Green
+Jan 05, 2018 7:26:32 AM model.EventReader dealWithOrder
+INFO: INPUT: Added a new order: SE Red
+Jan 05, 2018 7:26:32 AM model.EventReader pickerPick
+INFO: INPUT: Alice received a 'pick' order.
+Jan 05, 2018 7:26:32 AM worker.Picker picking
+INFO: OUTPUT: Picker Alice successfully picked Fascia #37 conforming by barcode.
+Jan 05, 2018 7:26:32 AM model.EventReader dealWithOrder
+INFO: INPUT: Added a new order: SES Green
+Jan 05, 2018 7:26:32 AM model.EventReader dealWithOrder
+INFO: NOTE: There is a picking request added to picking request processor. Skus are: [9, 10, 29, 30, 19, 20, 29, 30]
+Jan 05, 2018 7:26:32 AM model.EventReader pickerPick
+INFO: INPUT: Alice received a 'pick' order.
+Jan 05, 2018 7:26:32 AM worker.Picker picking
+INFO: OUTPUT: Picker Alice successfully picked Fascia #38 conforming by barcode.
+Jan 05, 2018 7:26:32 AM model.EventReader pickerPick
+INFO: INPUT: Alice received a 'pick' order.
+Jan 05, 2018 7:26:32 AM worker.Picker picking
+INFO: OUTPUT: Picker Alice successfully picked Fascia #21 conforming by barcode.
+Jan 05, 2018 7:26:32 AM model.EventReader pickerPick
+INFO: INPUT: Alice received a 'pick' order.
+Jan 05, 2018 7:26:32 AM worker.Picker picking
+INFO: OUTPUT: Picker Alice successfully picked Fascia #22 conforming by barcode.
+Jan 05, 2018 7:26:32 AM model.EventReader pickerPick
+INFO: INPUT: Alice received a 'pick' order.
+Jan 05, 2018 7:26:32 AM worker.Picker picking
+INFO: OUTPUT: Picker Alice successfully picked Fascia #43 conforming by barcode.
+Jan 05, 2018 7:26:32 AM model.EventReader pickerPick
+INFO: INPUT: Alice received a 'pick' order.
+Jan 05, 2018 7:26:32 AM worker.Replenisher update
+INFO: OUTPUT: Sheldon is replenishing.
+Jan 05, 2018 7:26:32 AM worker.Picker picking
+INFO: OUTPUT: Picker Alice successfully picked Fascia #44 conforming by barcode.
+Jan 05, 2018 7:26:32 AM model.EventReader pickerPick
+INFO: INPUT: Alice received a 'pick' order.
+Jan 05, 2018 7:26:32 AM worker.Picker picking
+INFO: OUTPUT: Picker Alice successfully picked Fascia #43 conforming by barcode.
+Jan 05, 2018 7:26:32 AM model.EventReader pickerPick
+INFO: INPUT: Alice received a 'pick' order.
+Jan 05, 2018 7:26:32 AM worker.Picker picking
+INFO: OUTPUT: Picker Alice successfully picked Fascia #44 conforming by barcode.
+Jan 05, 2018 7:26:32 AM model.EventReader dealWithOrder
+INFO: INPUT: Added a new order: SEL Black
+Jan 05, 2018 7:26:32 AM model.EventReader dealWithOrder
+INFO: INPUT: Added a new order: S Green
+Jan 05, 2018 7:26:32 AM model.EventReader dealWithOrder
+INFO: INPUT: Added a new order: SES Black
+Jan 05, 2018 7:26:32 AM model.EventReader dealWithOrder
+INFO: INPUT: Added a new order: S White
+Jan 05, 2018 7:26:32 AM model.EventReader dealWithOrder
+INFO: NOTE: There is a picking request added to picking request processor. Skus are: [47, 48, 25, 26, 45, 46, 1, 2]
+Jan 05, 2018 7:26:32 AM model.EventReader pickerIsReady
+INFO: INPUT: Bob is Ready.
+Jan 05, 2018 7:26:32 AM model.EventReader pickerIsReady
+INFO: NOTE: There is a picking request added to Bob from picking request processor. Now, there are 1 picking requests in the processor.
+Jan 05, 2018 7:26:32 AM model.EventReader pickerToMarshalling
+INFO: NOTE: Picking Request and Fascias are sent to marshalling area by Alice.
+Jan 05, 2018 7:26:32 AM model.EventReader pickerIsReady
+INFO: INPUT: Alice is Ready.
+Jan 05, 2018 7:26:32 AM model.EventReader pickerIsReady
+INFO: NOTE: There is a picking request added to Alice from picking request processor. Now, there are 0 picking requests in the processor.
+Jan 05, 2018 7:26:32 AM model.EventReader pickerPick
+INFO: INPUT: Bob received a 'pick' order.
+Jan 05, 2018 7:26:32 AM worker.Picker picking
+INFO: OUTPUT: Picker Bob successfully picked Fascia #9 conforming by barcode.
+Jan 05, 2018 7:26:32 AM model.EventReader dealWithOrder
+INFO: INPUT: Added a new order: S Black
+Jan 05, 2018 7:26:32 AM model.EventReader pickerPick
+INFO: INPUT: Bob received a 'pick' order.
+Jan 05, 2018 7:26:32 AM worker.Picker picking
+INFO: OUTPUT: Picker Bob successfully picked Fascia #10 conforming by barcode.
+Jan 05, 2018 7:26:32 AM model.EventReader pickerPick
+INFO: INPUT: Bob received a 'pick' order.
+Jan 05, 2018 7:26:32 AM worker.Picker picking
+INFO: OUTPUT: Picker Bob successfully picked Fascia #29 conforming by barcode.
+Jan 05, 2018 7:26:32 AM model.EventReader pickerPick
+INFO: INPUT: Bob received a 'pick' order.
+Jan 05, 2018 7:26:32 AM worker.Picker picking
+INFO: OUTPUT: Picker Bob successfully picked Fascia #30 conforming by barcode.
+Jan 05, 2018 7:26:32 AM model.EventReader pickerPick
+INFO: INPUT: Bob received a 'pick' order.
+Jan 05, 2018 7:26:32 AM worker.Picker picking
+INFO: OUTPUT: Picker Bob successfully picked Fascia #19 conforming by barcode.
+Jan 05, 2018 7:26:32 AM model.EventReader pickerPick
+INFO: INPUT: Bob received a 'pick' order.
+Jan 05, 2018 7:26:32 AM worker.Picker picking
+INFO: OUTPUT: Picker Bob successfully picked Fascia #20 conforming by barcode.
+Jan 05, 2018 7:26:32 AM model.EventReader pickerPick
+INFO: INPUT: Bob received a 'pick' order.
+Jan 05, 2018 7:26:32 AM worker.Picker picking
+INFO: OUTPUT: Picker Bob successfully picked Fascia #29 conforming by barcode.
+Jan 05, 2018 7:26:32 AM model.EventReader pickerPick
+INFO: INPUT: Bob received a 'pick' order.
+Jan 05, 2018 7:26:32 AM worker.Picker picking
+INFO: OUTPUT: Picker Bob successfully picked Fascia #30 conforming by barcode.
+Jan 05, 2018 7:26:32 AM model.EventReader pickerToMarshalling
+INFO: NOTE: Picking Request and Fascias are sent to marshalling area by Bob.
+Jan 05, 2018 7:26:32 AM model.EventReader sequencerIsReady
+INFO: INPUT: Sue is Ready
+Jan 05, 2018 7:26:32 AM model.EventReader sequencerIsReady
+INFO: Note: There is a set of Unordered Fascias added to Sue's unordered Fascia set from marshalling area. Now, there are 1 unordered fascia set in received Request.
+Jan 05, 2018 7:26:32 AM model.EventReader sequencerIsReady
+INFO: NOTE: There is a picking request added to Sue's requestlist from marshalling area. Now, there are 1 requests in received Request.
+Jan 05, 2018 7:26:32 AM model.EventReader sequencerSequence
+INFO: OUTPUT: Sue starts sequencing.
+Jan 05, 2018 7:26:32 AM worker.Sequencer sequencing
+INFO: OUTPUT: Sequencer Sue successfully sequenced Fascias with SKU37
+Jan 05, 2018 7:26:32 AM model.EventReader sequencerSequence
+INFO: NOTE: Sue finished sequencing.
+Jan 05, 2018 7:26:32 AM model.EventReader sequencerSequence
+INFO: OUTPUT: Sue starts sequencing.
+Jan 05, 2018 7:26:32 AM worker.Sequencer sequencing
+INFO: OUTPUT: Sequencer Sue successfully sequenced Fascias with SKU38
+Jan 05, 2018 7:26:32 AM model.EventReader sequencerSequence
+INFO: NOTE: Sue finished sequencing.
+Jan 05, 2018 7:26:32 AM model.EventReader sequencerSequence
+INFO: OUTPUT: Sue starts sequencing.
+Jan 05, 2018 7:26:32 AM worker.Sequencer sequencing
+INFO: OUTPUT: Sequencer Sue successfully sequenced Fascias with SKU21
+Jan 05, 2018 7:26:32 AM model.EventReader sequencerSequence
+INFO: NOTE: Sue finished sequencing.
+Jan 05, 2018 7:26:32 AM model.EventReader sequencerSequence
+INFO: OUTPUT: Sue starts sequencing.
+Jan 05, 2018 7:26:32 AM worker.Sequencer sequencing
+INFO: OUTPUT: Sequencer Sue successfully sequenced Fascias with SKU22
+Jan 05, 2018 7:26:32 AM model.EventReader sequencerSequence
+INFO: NOTE: Sue finished sequencing.
+Jan 05, 2018 7:26:32 AM model.EventReader sequencerSequence
+INFO: OUTPUT: Sue starts sequencing.
+Jan 05, 2018 7:26:32 AM worker.Sequencer sequencing
+INFO: OUTPUT: Sequencer Sue successfully sequenced Fascias with SKU43
+Jan 05, 2018 7:26:32 AM model.EventReader sequencerSequence
+INFO: NOTE: Sue finished sequencing.
+Jan 05, 2018 7:26:32 AM model.EventReader sequencerSequence
+INFO: OUTPUT: Sue starts sequencing.
+Jan 05, 2018 7:26:32 AM worker.Sequencer sequencing
+INFO: OUTPUT: Sequencer Sue successfully sequenced Fascias with SKU44
+Jan 05, 2018 7:26:32 AM model.EventReader sequencerSequence
+INFO: NOTE: Sue finished sequencing.
+Jan 05, 2018 7:26:32 AM model.EventReader sequencerSequence
+INFO: OUTPUT: Sue starts sequencing.
+Jan 05, 2018 7:26:32 AM worker.Sequencer sequencing
+INFO: OUTPUT: Sequencer Sue successfully sequenced Fascias with SKU43
+Jan 05, 2018 7:26:32 AM model.EventReader sequencerSequence
+INFO: NOTE: Sue finished sequencing.
+Jan 05, 2018 7:26:32 AM model.EventReader sequencerSequence
+INFO: OUTPUT: Sue starts sequencing.
+Jan 05, 2018 7:26:32 AM worker.Sequencer sequencing
+INFO: OUTPUT: Sequencer Sue successfully sequenced Fascias with SKU44
+Jan 05, 2018 7:26:32 AM model.EventReader sequencerSequence
+INFO: NOTE: Sue finished sequencing.
+Jan 05, 2018 7:26:32 AM model.EventReader sequencerRescan
+SEVERE: INPUT: Sue is Rescanning
+Jan 05, 2018 7:26:32 AM model.EventReader sequencerFinish
+INFO: INPUT: Sue sent Fascias and Picking Requests for loading.
+Jan 05, 2018 7:26:32 AM model.EventReader loaderReady
+INFO: INPUT: Alan is Ready
+Jan 05, 2018 7:26:32 AM model.EventReader loaderReady
+INFO: NOTE: Alan gets pallets from marshalling area.
+Jan 05, 2018 7:26:32 AM model.EventReader loaderReady
+INFO: NOTE: Alan gets picking request from marshalling area.
+Jan 05, 2018 7:26:32 AM model.EventReader loaderLoad
+INFO: INPUT: Alan starts loading.
+Jan 05, 2018 7:26:32 AM model.EventReader loaderLoad
+INFO: OUTPUT: Alan finished loading.
+Jan 05, 2018 7:26:32 AM model.EventReader sequencerIsReady
+INFO: INPUT: Bill is Ready
+Jan 05, 2018 7:26:32 AM model.EventReader sequencerIsReady
+INFO: Note: There is a set of Unordered Fascias added to Bill's unordered Fascia set from marshalling area. Now, there are 0 unordered fascia set in received Request.
+Jan 05, 2018 7:26:32 AM model.EventReader sequencerIsReady
+INFO: NOTE: There is a picking request added to Bill's requestlist from marshalling area. Now, there are 0 requests in received Request.
+Jan 05, 2018 7:26:32 AM model.EventReader sequencerSequence
+INFO: OUTPUT: Bill starts sequencing.
+Jan 05, 2018 7:26:32 AM worker.Sequencer sequencing
+INFO: OUTPUT: Sequencer Bill successfully sequenced Fascias with SKU10
+Jan 05, 2018 7:26:32 AM model.EventReader sequencerSequence
+INFO: NOTE: Bill finished sequencing.
+Jan 05, 2018 7:26:32 AM model.EventReader sequencerSequence
+INFO: OUTPUT: Bill starts sequencing.
+Jan 05, 2018 7:26:32 AM worker.Sequencer sequencing
+INFO: OUTPUT: Sequencer Bill successfully sequenced Fascias with SKU9
+Jan 05, 2018 7:26:32 AM model.EventReader sequencerSequence
+INFO: NOTE: Bill finished sequencing.
+Jan 05, 2018 7:26:32 AM model.EventReader sequencerSequence
+INFO: OUTPUT: Bill starts sequencing.
+Jan 05, 2018 7:26:32 AM worker.Sequencer sequencing
+INFO: OUTPUT: Sequencer Bill successfully sequenced Fascias with SKU29
+Jan 05, 2018 7:26:32 AM model.EventReader sequencerSequence
+INFO: NOTE: Bill finished sequencing.
+Jan 05, 2018 7:26:32 AM model.EventReader sequencerSequence
+INFO: OUTPUT: Bill starts sequencing.
+Jan 05, 2018 7:26:32 AM worker.Sequencer sequencing
+INFO: OUTPUT: Sequencer Bill successfully sequenced Fascias with SKU30
+Jan 05, 2018 7:26:32 AM model.EventReader sequencerSequence
+INFO: NOTE: Bill finished sequencing.
+Jan 05, 2018 7:26:32 AM model.EventReader sequencerSequence
+INFO: OUTPUT: Bill starts sequencing.
+Jan 05, 2018 7:26:32 AM worker.Sequencer sequencing
+INFO: OUTPUT: Sequencer Bill successfully sequenced Fascias with SKU19
+Jan 05, 2018 7:26:32 AM model.EventReader sequencerSequence
+INFO: NOTE: Bill finished sequencing.
+Jan 05, 2018 7:26:32 AM model.EventReader sequencerSequence
+INFO: OUTPUT: Bill starts sequencing.
+Jan 05, 2018 7:26:32 AM worker.Sequencer sequencing
+INFO: OUTPUT: Sequencer Bill successfully sequenced Fascias with SKU20
+Jan 05, 2018 7:26:32 AM model.EventReader sequencerSequence
+INFO: NOTE: Bill finished sequencing.
+Jan 05, 2018 7:26:32 AM model.EventReader sequencerSequence
+INFO: OUTPUT: Bill starts sequencing.
+Jan 05, 2018 7:26:32 AM worker.Sequencer sequencing
+INFO: OUTPUT: Sequencer Bill successfully sequenced Fascias with SKU29
+Jan 05, 2018 7:26:32 AM model.EventReader sequencerSequence
+INFO: NOTE: Bill finished sequencing.
+Jan 05, 2018 7:26:32 AM model.EventReader sequencerSequence
+INFO: OUTPUT: Bill starts sequencing.
+Jan 05, 2018 7:26:32 AM worker.Sequencer sequencing
+INFO: OUTPUT: Sequencer Bill successfully sequenced Fascias with SKU30
+Jan 05, 2018 7:26:32 AM model.EventReader sequencerSequence
+INFO: NOTE: Bill finished sequencing.
+Jan 05, 2018 7:26:32 AM model.EventReader sequencerRescan
+SEVERE: INPUT: Bill is Rescanning
+Jan 05, 2018 7:26:32 AM model.EventReader sequencerFinish
+INFO: INPUT: Bill sent Fascias and Picking Requests for loading.
+Jan 05, 2018 7:26:32 AM model.EventReader loaderReady
+INFO: INPUT: Alan is Ready
+Jan 05, 2018 7:26:32 AM model.EventReader loaderReady
+INFO: NOTE: Alan gets pallets from marshalling area.
+Jan 05, 2018 7:26:32 AM model.EventReader loaderReady
+INFO: NOTE: Alan gets picking request from marshalling area.
+Jan 05, 2018 7:26:32 AM model.EventReader loaderLoad
+INFO: INPUT: Alan starts loading.
+Jan 05, 2018 7:26:32 AM model.EventReader loaderLoad
+INFO: OUTPUT: Alan finished loading.
+Jan 05, 2018 7:26:32 AM model.EventReader readEvent
+INFO: OUTPUT: Read event finished!!!!
