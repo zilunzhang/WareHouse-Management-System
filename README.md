@@ -1,5 +1,5 @@
 # WareHouse-Management-System
-WareHouse Management System worked with Sheldon Huang, Brain Hu and David Ouyang  
+WareHouse Management System worked with Sicong Huang, Kaixuan Hu and Donghao Ou Yang 
 
 How to use it:
 
